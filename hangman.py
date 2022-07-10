@@ -4,8 +4,6 @@ chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
 end_of_game = False
 lives = 6
-from hangman_art import logo
-print(logo)
 #Testing code
 # print(f'Pssst, the solution is {chosen_word}.')
 display = []
